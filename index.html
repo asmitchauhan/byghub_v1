@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
+    <title>BygHub</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/first-image.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div id="logo-div">
+            <a id="a1" href="#">Byg</a><a id="a2" href="#">Hub</a>
+        </div>
+        <div id="search-div">
+            <button id="search-btn2" onclick="showSearch()">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </button>
+            <button id="cross-btn" onclick="hide()">
+                <i class="fa-solid fa-xmark fa-lg"></i>
+            </button>
+            <button id="search-btn1">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </button>
+            <input type="text" name="search" placeholder="I'm looking for..." id="search-input">
+        </div>
+    </nav>
+    <a id="s1a" href="javascript:setTimeout(()=>{window.location = 'john-wick.html' },2000);">
+        <section class="s1">
+            <div class="img-div">
+                <img src="img/John-Wick-3.jpg">
+            </div>
+            <div class="img-content">
+                <div class="img-info">
+                    <div class="type"><i class="fa-solid fa-film"></i><span>Action/Thriller</span></div>
+                    <div class="year"><i class="fa-solid fa-calendar-days"></i></i><span>2019</span></div>
+                    <div class="duration"><i class="fa-solid fa-clock"></i><span>2h 11m</span></div>
+                </div>
+                <div class="img-text">
+                    <h1>John Wick: Chapter 3 - Parabellum</h1>
+                </div>
+            </div>
+        </section>
+    </a>
+    <div id="holly" class="type-head">
+        <span  class="m-type">Hollywood</span>
+    </div>
+
+    <div class="movies-grid">
+        <a class="amg" href="javascript:setTimeout(()=>{window.location = 'venom.html' },2000);">
+            <div class="movie-card">
+                <div class="movie-img">
+                    <img src="img/venom.jpg">
+                    <div class="overlay">
+                        <i class="fa-solid fa-circle-arrow-down fa-3x"></i>
+                    </div>
+                </div>
+                <div class="movie-text">
+                    <h3>Venom</h3>
+                    <div class="movie-info">
+                        <span>Action/Adventure</span>
+                        <span class="sp2">2018</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    
+    <footer>
+        <div class="heading"><a id="a1" href="#">Byg</a><a id="a2" href="#">Hub</a></div>
+        <div class="text">An integrated environment to download your interest.</div>
+        <div class="div-ul">
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="#"><img src="icons/facebook.svg"></a></li>
+                <li><a href="#"><img src="icons/instagram.svg"></a></li>
+                <li><a href="#"><img src="icons/youtube.svg"></a></li>
+                <li><a href="#"><img src="icons/twitter.svg"></a></li>
+                
+            </ul>
+        </div>
+        <div class="validation">
+            <span>© 2022 BygHub | All Rights Reserved</span>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
